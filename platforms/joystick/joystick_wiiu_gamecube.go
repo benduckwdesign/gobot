@@ -1,3 +1,5 @@
+package joystick
+
 var wiiuGameCubeConfig = joystickConfig{
 	Name: "Wii U Adapter GameCube Controller",
 	GUID: "3333",
