@@ -38,6 +38,8 @@ const (
 
 	// Nintendo Switch Joycon Controller Pair
 	NintendoSwitchPair = "joyconPair"
+
+	WiiUGameCube = "gamecube"
 )
 
 // Driver represents a joystick
@@ -177,6 +179,8 @@ func (j *Driver) initConfig() error {
 		j.config = shieldConfig
 	case NintendoSwitchPair:
 		j.config = joyconPairConfig
+	case WiiUGameCube:
+		j.config = wiiuGameCubeConfig
 	default:
 		err := j.loadFile()
 		if err != nil {
