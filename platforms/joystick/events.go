@@ -137,6 +137,10 @@ const (
 	BackPress = "back_press"
 	// back button release event
 	BackRelease = "back_release"
+	// z button press event
+	ZPress = "z_press"
+	// z button release event
+	ZRelease = "z_release"
 	// red pad press event
 	RedPress = "red_press"
 	// red pad release event
