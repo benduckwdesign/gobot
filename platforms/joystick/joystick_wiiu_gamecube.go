@@ -6,7 +6,7 @@ package joystick
 
 var wiiuGameCubeConfig = joystickConfig{
 	// WUP-028
-	Name: "Wii U Adapter GameCube Controller",
+	Name: "Wii U GameCube Adapter",
 	// USB ID 057E (Nintendo) 0337 (Wii U USB Adapter Device)
 	GUID: "3333",
 	Axis: []pair{
