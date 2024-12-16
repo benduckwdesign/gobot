@@ -1,7 +1,13 @@
 package joystick
 
+// This config was created for Windows using the following commonly used setup:
+// Gamecube USB Adapter Driver v3.2.1 (GCN USB Feeder.exe) -> vJoy
+// and Zadig to replace the USB driver with WinUSB
+
 var wiiuGameCubeConfig = joystickConfig{
+	// WUP-028
 	Name: "Wii U Adapter GameCube Controller",
+	// USB ID 057E (Nintendo) 0337 (Wii U USB Adapter Device)
 	GUID: "3333",
 	Axis: []pair{
 		{
