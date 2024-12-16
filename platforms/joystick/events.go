@@ -17,6 +17,10 @@ const (
 	L1Release = "l1_release"
 	// L2 joystick event
 	L2 = "l2"
+	// LT joystick event
+	LT = "lt"
+	// RT joystick event
+	RT = "rt"
 	// L2 button press event
 	L2Press = "l2_press"
 	// L2 button release event
